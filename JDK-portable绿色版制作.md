@@ -41,7 +41,7 @@ Path = %JAVA_HOME%\bin
 
 ​	jdk1.5之后不需要配置classpath了。
 
-	- 在没有配置CLASSPATH环境变量时，java命令在找class文件时是默认在当前目录下寻找的。
-	- 配置过CLASSPATH环境后，java命令是按照CLASSPATH变量中的路径来的寻找class文件的，这就是为什么CLASSPATH变量中配置没有当前目录时，即使当前目录中有class文件，java命令仍然不能正常运行的原因。
+- 在没有配置CLASSPATH环境变量时，java命令在找class文件时是默认在当前目录下寻找的。
+- 配置过CLASSPATH环境后，java命令是按照CLASSPATH变量中的路径来的寻找class文件的，这就是为什么CLASSPATH变量中配置没有当前目录时，即使当前目录中有class文件，java命令仍然不能正常运行的原因。
 
 
